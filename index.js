@@ -100,3 +100,17 @@ const initGame = () => {
 updateFoodPosition();
 setIntervalId = setInterval(initGame, 100);
 document.addEventListener("keyup", changeDirection);
+
+const title = document.querySelector('.game-title');
+
+function animateTitle() {
+    const colors = ['#f5f5f5', '#FFC300', '#FF5733', '#C70039', '#900C3F']; // Cores para a animação
+    let currentColor = 0;
+
+    setInterval(() => {
+        title.style.color = colors[currentColor];
+        currentColor = (currentColor + 1) % colors.length;
+    }, 2000); 
+}
+
+animateTitle();

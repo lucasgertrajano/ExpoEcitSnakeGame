@@ -90,3 +90,12 @@ body {
     }
 
 }
+
+.game-title {
+    position: absolute;
+    top: 20px; 
+    left: 470px; 
+    font-size: 3em;
+    color: #f5f5f5; 
+}
+
