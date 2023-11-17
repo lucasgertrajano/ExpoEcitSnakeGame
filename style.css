@@ -73,7 +73,7 @@ body {
 
 .game-title {
     position: absolute;
-    top: 3%; 
+    top: 1%; 
     left: 50%; 
     transform: translateX(-50%); 
     font-size: 5vw;
